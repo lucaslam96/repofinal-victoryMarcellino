@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Victory Fitness - Soluciones deportivas</title>
+	<link rel="shortcut icon" href="../img/favicon.png">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="contenedor">
+	<nav class="botonera" id="mainNav">
+		<a href="../index.html">
+			<img src="../img/logo.ico" alt="logo de victory fitness soluciones deportivas">
+		</a>
+		<ul>
+			<li>
+				<a href="../views/crossfit.html" >Crossfit</a>
+			</li>
+			<li>
+				<a href="../views/funcional.html">Funcional</a>
+			</li>
+			<li>
+				<a href="../views/contacto.html" >Contacto</a>
+			</li>
+			<li>
+				<a href="../views/ofertas.html">Ofertas</a>
+			</li>
+		</ul>
+	</nav>
+	
+	
+
+	<main>
+		<section>
+			<form action="envio.php" id="contacto">
+				<fieldset>
+					<legend>Datos personales</legend>
+					<label for="nombre">Nombre:</label>
+					<input type="text" id="nombre" placeholder="Lucas Marcellino">
+					<br>
+					<label for="email">Email:</label>
+					<input type="email" id="email" placeholder="mail@mail.com" required>
+				</fieldset>
+				<fieldset>
+					<legend>Productos</legend>
+					<label for="kettlebell">Kettlebell</label>
+					<input type="checkbox" id="kettlebell" value="kettlebell">
+					<br>
+					<label for="mancuernas">Cajón de salto</label>
+					<input type="checkbox" id="mancuernas" value="mancuernas">
+					<br>
+					<label for="bandas elasticas">Bandas elásticas</label>
+					<input type="checkbox" id="bandas elasticas" value="bandas elasticas">
+					<br>
+					<label for="pisos">Soga climb rope</label>
+					<input type="checkbox" id="pisos" value="pisos">
+					<br>
+					<label for="racks">Racks</label>
+					<input type="checkbox" id="racks" value="racks">
+					<br>
+					<label for="barras">Barras</label>
+					<input type="checkbox" id="barras" value="barras">
+					<br>
+					<label for="discos">Discos</label>
+					<input type="checkbox" id="discos" value="discos">
+					<br>
+					<label for="medicine ball">Medicine ball</label>
+					<input type="checkbox" id="medicine ball" value="medicine ball">
+					<br>
+					<label for="colchonetas">Escalera coordinación</label>
+					<input type="checkbox" id="colchonetas" value="colchonetas">
+					<br>
+					<label for="sogas de salto">Sogas de salto</label>
+					<input type="checkbox" id="sogas de salto" value="sogas de salto">
+				</fieldset>
+				<fieldset>
+					<legend>Envio</legend>
+					<label for="local">Retiro en el local</label>
+					<input type="radio" id="local" value="local" name="envio">
+					<br>
+					<label for="casa">Envio a domicilio</label>
+					<input type="radio" id="casa" value="casa" name="envio">
+					<br>
+					<label for="localidad">Provincia</label>
+					<select name="" id="localidad">
+						<option value="caba">Ciudad de Bs As</option>
+						<option value="bsas">Provincia de Bs As</option>
+						<option value="interior">Interior del país</option>
+					</select>
+				</fieldset>
+				<label for="mensaje">Deje su mensaje</label>
+				<br>
+				<textarea name="" id="mensaje" cols="150" rows="10"></textarea>
+				<br>
+				<input type="reset" value="Cancelar">
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
+	</main>
+
+	<footer class="pie" id="footer">
+		<h3 class="pie__titulo--md">Seguinos en nuestras redes</h3>
+		<div>
+			<a href="https://facebook.com" target="_blank">
+				<img src="../img/facebook.png" alt="Seguinos en facebook" class="pie__icon--sm">
+			</a>
+			<a href="https://twitter.com" target="_blank">
+				<img src="../img/twitter.png" alt="Seguinos en twitter" class="pie__icon--sm">
+			</a>
+		</div>
+	</footer>
+</div>	
+</body>
+</html>

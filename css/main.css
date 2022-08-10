@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto&display=swap");
+.textDestacado {
+  background-color: rgba(255, 252, 0, 0.4); }
+
+.textBold {
+  font-weight: 600; }
+
+.textCenter {
+  text-align: center; }
+
+.textRight {
+  text-align: right; }
+
+.textLeft {
+  text-align: left; }
+
+.botonera {
+  background-color: rgba(238, 188, 247, 0.7);
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .botonera img {
+    width: 150px; }
+    @media (min-width: 320px) and (max-width: 320px) {
+      .botonera img {
+        width: 100px; } }
+  .botonera ul {
+    display: flex; }
+    .botonera ul li {
+      list-style: none;
+      margin-right: 10px; }
+      .botonera ul li a {
+        font-family: "Roboto", sans-serif;
+        font-size: 1em;
+        text-decoration: none;
+        color: #0F0E0E; }
+        .botonera ul li a:hover {
+          color: deeppink; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+h1,
+h2,
+h3 {
+  font-family: "Nunito Sans", sans-serif;
+  color: deeppink;
+  margin: 10px 20px;
+  font-weight: 600; }
+
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 2em; }
+
+h3 {
+  font-size: 1em; }
+
+p {
+  margin: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4em;
+  font-size: 1em;
+  color: #0F0E0E; }
+
+a {
+  margin: 10px 20px;
+  color: deeppink;
+  font-size: 1em;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif; }
+
+.bgLight {
+  background-color: rgba(238, 188, 247, 0.5); }
+
+.bgDark {
+  background-color: #0F0E0E; }
+
+.btnXl {
+  width: 50%;
+  height: 30px;
+  background-color: #F5F0F0;
+  color: deeppink;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 50px;
+  font-size: 2rem;
+  /****display flex****/
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#productos h1, #productos h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: "Roboto", sans-serif;
+  margin: 20px 0; }
+
+#productos .galeria {
+  margin: 20px;
+  /****display flex****/
+  display: flex;
+  justify-content: space-around; }
+  #productos .galeria figure {
+    text-align: center;
+    margin: 0 20px; }
+    #productos .galeria figure img {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      width: 100%; }
+    #productos .galeria figure figcaption {
+      font-size: 2.5rem;
+      color: #BD5EF3;
+      padding: 10px 0;
+      background-color: white; }
+  #productos .galeria p.price {
+    color: #676565;
+    padding-bottom: 10px;
+    background-color: white; }
+
+/* productos en promoción*/
+.pie {
+  /*padding*/
+  padding: 30px;
+  /****display flex****/
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .pie a {
+    text-decoration: none; }
+
+.pie__icon--sm {
+  /*size*/
+  width: 30px; }
+
+.pie__titulo--md {
+  font-size: 2rem; }

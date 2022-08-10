@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+h1,
+h2,
+h3{
+	font-family: $secondaryFont;
+	color:$keyColor;
+	margin: 10px 20px;
+	font-weight: $bold;
+}
+
+h1{
+	font-size: $textXl;
+}
+
+h2{
+	font-size: $textLg;
+}
+
+h3{
+	font-size: $textMd;
+}
+
+p{
+	margin: 10px 20px;
+	font-family: $mainFont;
+	line-height: 1.4em;
+	font-size: $textMd;
+	color:$black;
+}
+
+a{
+	margin: 10px 20px;
+	color:$keyColor;
+	font-size: $textMd;
+	text-decoration: none;
+	font-family: $mainFont;
+}
+
+//backgrounds 
+.bgLight{
+	background-color:$mainColor;
+}
+
+.bgDark{
+	background-color:$black;
+}
+
+.btnXl{
+	width:50%;
+	height: 30px;
+	background-color: $white;
+	color: $keyColor;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-left: 50px;
+	font-size: 2rem;
+	/****display flex****/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	
